@@ -12,6 +12,11 @@
 		542EA8D12C11068C00AF45ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EA8D02C11068C00AF45ED /* ContentView.swift */; };
 		542EA8D32C11068E00AF45ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542EA8D22C11068E00AF45ED /* Assets.xcassets */; };
 		542EA8D62C11068E00AF45ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542EA8D52C11068E00AF45ED /* Preview Assets.xcassets */; };
+		542EA8E32C11083300AF45ED /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EA8E22C11083300AF45ED /* Note.swift */; };
+		542EA8E52C1111C300AF45ED /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EA8E42C1111C300AF45ED /* PlaceholderView.swift */; };
+		542EA8E72C1112D600AF45ED /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EA8E62C1112D600AF45ED /* DetailView.swift */; };
+		542EA8E92C11150600AF45ED /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EA8E82C11150600AF45ED /* CreditsView.swift */; };
+		542EA8EB2C11182A00AF45ED /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EA8EA2C11182A00AF45ED /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		542EA8D02C11068C00AF45ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		542EA8D22C11068E00AF45ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		542EA8D52C11068E00AF45ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		542EA8E22C11083300AF45ED /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		542EA8E42C1111C300AF45ED /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		542EA8E62C1112D600AF45ED /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		542EA8E82C11150600AF45ED /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		542EA8EA2C11182A00AF45ED /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +88,9 @@
 		542EA8CD2C11068C00AF45ED /* Notes Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				542EA8E12C11081500AF45ED /* Model */,
+				542EA8E02C11080700AF45ED /* View */,
 				542EA8CE2C11068C00AF45ED /* NotesApp.swift */,
-				542EA8D02C11068C00AF45ED /* ContentView.swift */,
 				542EA8D22C11068E00AF45ED /* Assets.xcassets */,
 				542EA8D42C11068E00AF45ED /* Preview Content */,
 			);
@@ -92,6 +103,26 @@
 				542EA8D52C11068E00AF45ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		542EA8E02C11080700AF45ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				542EA8D02C11068C00AF45ED /* ContentView.swift */,
+				542EA8E42C1111C300AF45ED /* PlaceholderView.swift */,
+				542EA8E62C1112D600AF45ED /* DetailView.swift */,
+				542EA8E82C11150600AF45ED /* CreditsView.swift */,
+				542EA8EA2C11182A00AF45ED /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		542EA8E12C11081500AF45ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				542EA8E22C11083300AF45ED /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +171,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
+				ORGANIZATIONNAME = "Abhyuday Reddy Nandikonda";
 				TargetAttributes = {
 					542EA8C22C11068C00AF45ED = {
 						CreatedOnToolsVersion = 15.4;
@@ -192,8 +224,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542EA8EB2C11182A00AF45ED /* SettingsView.swift in Sources */,
 				542EA8D12C11068C00AF45ED /* ContentView.swift in Sources */,
 				542EA8CF2C11068C00AF45ED /* NotesApp.swift in Sources */,
+				542EA8E52C1111C300AF45ED /* PlaceholderView.swift in Sources */,
+				542EA8E92C11150600AF45ED /* CreditsView.swift in Sources */,
+				542EA8E72C1112D600AF45ED /* DetailView.swift in Sources */,
+				542EA8E32C11083300AF45ED /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
